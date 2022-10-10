@@ -1,0 +1,14 @@
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.exe
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.deps.json
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.runtimeconfig.json
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.runtimeconfig.dev.json
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.dll
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\bin\Debug\netcoreapp3.1\Vectors2.pdb
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.csproj.AssemblyReference.cache
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.GeneratedMSBuildEditorConfig.editorconfig
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.AssemblyInfoInputs.cache
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.AssemblyInfo.cs
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.csproj.CoreCompileInputs.cache
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.dll
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.pdb
+h:\Windows7\Desktop\yusupovy xml\Lab2-12-EN-B\Vectors2\obj\Debug\netcoreapp3.1\Vectors2.genruntimeconfig.cache
