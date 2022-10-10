@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://example.org/jk/library"
+    elementFormDefault="qualified"
+    xmlns:lib="http://example.org/jk/library"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	
+	
+	
+	<!-- FOOD LAB-->
+	
+	
+	<!--<xs:element name="food">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ingredients" minOccurs="1" maxOccurs="1" >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meat" type="lib:meat"/>
+							<xs:element name="vegetable" type="lib:vegetable"/>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:unique name="uniqueName">
+						<xs:selector xpath="lib:food"/>
+						<xs:field xpath="@name"/>
+					</xs:unique>
+				</xs:element>
+				<xs:element name="meal" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="meat" minOccurs="0" maxOccurs="unbounded" type="lib:meat"/>
+							<xs:element name="vegetables" minOccurs="0" maxOccurs="unbounded" type="lib:vegetable"/>
+						</xs:sequence>
+						<xs:attribute name="name" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="[A-Z]([a-z])*[A-Z]"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+					<xs:unique name="uniqueNameMeal">
+						<xs:selector xpath="lib:food/meal"/>
+						<xs:field xpath="@name"/>
+					</xs:unique>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+
+		<xs:key name="meatKey">
+			<xs:selector xpath="lib:meat"/>
+			<xs:field xpath="@name"/>
+		</xs:key>
+
+		<xs:keyref name="meatKeyref" refer="lib:meatKey">
+			<xs:selector xpath="lib:food/lib:meat"/>
+			<xs:field xpath="@ref"/>
+		</xs:keyref>
+
+		<xs:key name="vegKey">
+			<xs:selector xpath="lib:vegetables"/>
+			<xs:field xpath="@name"/>
+		</xs:key>
+
+		<xs:keyref name="vegKeyref" refer="lib:vegKey">
+			<xs:selector xpath="lib:food/lib:vegetabes"/>
+			<xs:field xpath="@ref"/>
+		</xs:keyref>
+		
+	</xs:element>
+	
+<xs:complexType name="meat">
+	<xs:sequence>
+		<xs:element name="name">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="([a-z])*"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="price">
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:fractionDigits value="2"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="frozen">
+		</xs:element>
+	</xs:sequence>
+	<xs:attribute name="quality" use="required">
+		<xs:simpleType>
+			<xs:restriction base="xs:double">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+</xs:complexType>
+				
+<xs:complexType name="vegetable">
+	<xs:sequence>
+		<xs:element name="name">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="([a-z])*"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="price">
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:fractionDigits value="2"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+	</xs:sequence>
+	<xs:attribute name="quality" use="required">
+		<xs:simpleType>
+			<xs:restriction base="xs:double">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="color">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="blue"/>
+				<xs:enumeration value="pink"/>
+				<xs:enumeration value="red"/>
+				<xs:enumeration value="orange"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+</xs:complexType>-->
+		
+	
+	<!-- LAB1-->
+	
+	
+		<!--<xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="book" minOccurs="1" maxOccurs="3">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:minLength value="3"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="year">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1120"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="language">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="EN"/>
+										<xs:enumeration value="PL"/>
+										<xs:enumeration value="TLH"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							-->
+		<!--<xs:element name="authornames" type="xs:string"/>
+							<xs:element name="authorsurname" type="xs:string"/>-->
+		<!--
+							<xs:element name="auhtor">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+										<xs:element name="surname" type="xs:string" minOccurs="1" maxOccurs="1"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				
+			</xs:sequence>
+		</xs:complexType>
+
+		<xs:key name="authorKey">
+			<xs:selector xpath="lib:author"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+
+		<xs:keyref name="authorRef" refer="lib:authorKey">
+			<xs:selector xpath="lib:book/lib:author"/>
+			<xs:field xpath="@ref"/>
+		</xs:keyref>
+	</xs:element>-->
+
+</xs:schema>

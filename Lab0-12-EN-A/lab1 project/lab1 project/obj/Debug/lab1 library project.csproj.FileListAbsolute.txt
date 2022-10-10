@@ -1,0 +1,6 @@
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\obj\Debug\lab1 library project.csproj.CoreCompileInputs.cache
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\bin\Debug\lab1 project.exe
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\bin\Debug\lab1 project.pdb
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\obj\Debug\lab1 project.exe
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\obj\Debug\lab1 project.pdb
+h:\Windows7\Desktop\yusupovy xml\lab1\lab1 project\lab1 project\obj\Debug\lab1 library project.csproj.AssemblyReference.cache

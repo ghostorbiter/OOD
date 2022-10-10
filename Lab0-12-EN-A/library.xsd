@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://example.org/jk/library"
+    elementFormDefault="qualified"
+    xmlns:lib="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="book" minOccurs="1" maxOccurs="3">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:minLength value="3"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="year">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1120"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="language">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="EN"/>
+										<xs:enumeration value="PL"/>
+										<xs:enumeration value="TLH"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="authornames" type="xs:string"/>
+							<xs:element name="authorsurname" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+</xs:schema>

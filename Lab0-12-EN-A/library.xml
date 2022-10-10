@@ -1,0 +1,80 @@
+﻿
+
+	
+	<!--FOOD LAB-->
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<food xmlns="http://example.org/jk/library"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://example.org/jk/library file:///h:\Windows7\Desktop\yusupovy%20xml\lab1\lab1%20project\lab1%20project\library.xsd">	
+
+	<ingredients>
+		<meat quality="4">
+			<name>pork</name>
+			<price>8.56</price>
+		</meat>
+		<vegetable quality="1.5" color="orange">
+			<name>carrot</name>
+			<price>2.84</price>
+		</vegetable>
+		<meat quality="3">
+			<name>chicken</name>
+			<price>6.89</price>
+			<frozen/>
+		</meat>
+		<meat quality="3.5">
+			<name>lamb</name>
+			<price>48.33</price>
+			<frozen></frozen>
+		</meat>
+		<vegetable quality="3.6" color="red">
+			<name>beetroot</name>
+			<price>3.24</price>
+		</vegetable>
+	</ingredients>
+	<meal name="Pork with carrotS">
+		<meat name="pork"/>
+		<vegetable name="carrot"/>
+	</meal>
+	<meal name="Chicken with lamB">
+		<meat name="chicken"/>
+		<meat name="lamb"/>
+		<vegetable name="beetroot"/>
+		<vegetable name="beetroot"/>
+		<vegetable name="carrot"/>
+	</meal>
+</food>-->
+
+
+	<!--LAB1-->
+	
+	
+<!--<?xml version="1.0" encoding="utf-8"?>
+<library xmlns="http://example.org/jk/library"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://example.org/jk/library file:///h:\Windows7\Desktop\yusupovy%20xml\lab1\lab1%20project\lab1%20project\library.xsd"
+>
+	
+	<book>
+		<title>hey</title>
+		<year>2001</year>
+		<language>EN</language>
+		<author ref="YY"/>
+	</book>
+	<book>
+		<title>hell</title>
+		<year>1920</year>
+		<language>EN</language>
+		<author ref="shitterBett"/>
+	</book>
+	<author id="YY">
+		<name>Yuldashbek</name>
+		<surname>Yusupov</surname>
+	</author>
+	<author id="shitterBett">
+		<name>Bett</name>
+		<name>Mommy</name>
+		<surname>Shitter</surname>
+	</author>
+</food>-->
