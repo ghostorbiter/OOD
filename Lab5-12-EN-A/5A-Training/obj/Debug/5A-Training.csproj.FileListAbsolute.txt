@@ -1,0 +1,7 @@
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\bin\Debug\5A-Training.exe.config
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\bin\Debug\5A-Training.exe
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\bin\Debug\5A-Training.pdb
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\obj\Debug\5A-Training.csproj.AssemblyReference.cache
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\obj\Debug\5A-Training.csproj.CoreCompileInputs.cache
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\obj\Debug\5A-Training.exe
+h:\Windows7\Desktop\yusupovy ood\Lab5-12-EN-A\5A-Training\obj\Debug\5A-Training.pdb
